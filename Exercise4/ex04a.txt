@@ -1,0 +1,5 @@
+The tasks are all queued by the sempahore. When the sempahore is signaled it starts 
+the tasks in FIFO order. Having a preemptive Priority-Based Scheduling, the kernel
+saves the context for task0 and task1, allowing for task2 to start first. 
+The second task is then released and then the first, based on the priorities assigned
+to them.

@@ -1,0 +1,6 @@
+The solution works because each task gets to take the semaphore while the other
+is sleeping.
+
+In order to scale the solution to any number of tasks there should be another
+supervising task that watches the global variable and stops it from becoming
+negative.

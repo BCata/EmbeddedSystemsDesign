@@ -1,0 +1,2 @@
+The program executes the tasks in the order in which they are written.
+The ouput is the name of the tasks and the given number.

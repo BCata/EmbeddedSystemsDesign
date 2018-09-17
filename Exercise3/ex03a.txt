@@ -1,0 +1,6 @@
+Tasks are executed in the expected order. Task one increases the global counter and Task
+two decreases it.
+The two tasks do not overlap becuase the execution time is fairly small and they have the
+same priorities.
+
+Adding a sleep inside the tasks renders different results as the tasks overlap.

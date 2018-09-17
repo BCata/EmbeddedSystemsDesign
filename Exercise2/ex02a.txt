@@ -1,0 +1,2 @@
+The tasks execute in the order they are written.
+This does not change if the program is executed for several times.

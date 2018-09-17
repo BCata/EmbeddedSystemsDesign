@@ -1,0 +1,3 @@
+When modifying the priorities of the last two tasks, the execution is done as following:
+task1, task2, task0. This is because, having equal priorities, the tasks are executed
+in the starting order, and task 0 is executed last, because it has a lower priority.

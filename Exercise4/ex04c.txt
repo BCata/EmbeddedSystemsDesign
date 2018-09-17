@@ -1,0 +1,5 @@
+The program behaves as expected. 
+
+As soon as the priorities are changed the higher priority tasks take over the CPU
+and are executed. The context for task2 is saved and the task is given CPU time when
+the other two have finished their execution. Task2 continues from where it left of.

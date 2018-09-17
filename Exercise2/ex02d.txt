@@ -1,0 +1,40 @@
+The output is as follows:
+    Task name: Task1
+    Exec time: 1321
+    Task name: Task1
+    Exec time: 1321
+    Task name: Task2
+    Exec time: 1321
+    Task name: Task3
+    Exec time: 1321
+
+    Task name: Task1
+    Exec time: 1322
+    Task name: Task2
+    Exec time: 1322
+
+    Task name: Task1
+    Exec time: 1323
+    Task name: Task3
+    Exec time: 1323
+
+    Task name: Task1
+    Exec time: 1324
+    Task name: Task2
+    Exec time: 1324
+
+    Task name: Task1
+    Exec time: 1325
+
+    Task name: Task1
+    Exec time: 1326
+    Task name: Task2
+    Exec time: 1326
+    Task name: Task3
+    Exec time: 1326
+
+We see that Task1 is executed twice in the first release point, together 
+with Task2 and Task3. This happens because, if the current release point 
+has already been reached at the time of the call, the current task immediately
+returns from this service with no delay. After this each task executes when is
+expected.
