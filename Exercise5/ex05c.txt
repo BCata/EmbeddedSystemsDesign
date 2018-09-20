@@ -1,0 +1,3 @@
+Adding a fourth task with priority 80 will result in task 3 (which we just added) executing all the way until the end, after which the remaining three tasks will execute in a similar manner as in ex05b. This result is given by the Round Robin policy which only ensures fair execution time across tasks with same priority. Higher priority tasks will always execute before lower priority tasks.
+
+The policy under which task 3 executes is of no importance, since it is the only one which has the highest priority. Thus, it will execute before any other task regardless of its execution policy

@@ -1,0 +1,1 @@
+Choosing the Round Robin policy with the help of rt_task_set_mode function and setting a time slice of 100 000 ns for each task will result in an interleaved output of the three tasks. Each task having the same priority, each task will execute the allocated time slice, and then CPU time will be given to a different task for the same amount of time.
