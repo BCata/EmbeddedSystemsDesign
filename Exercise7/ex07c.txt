@@ -1,0 +1,1 @@
+Oddly enough, the counter sometimes increases twice per button press, even if we specifically wanted to catch only the EDGE_FALLING interrupt. We couldn't find a solution to this problem, so we accounted this behaviour on some imperfections of the button (maybe it slightly goes up an down triggering multiple EDGE_FALLING interruptions).
